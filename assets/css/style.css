@@ -185,10 +185,19 @@ footer {
     padding-block: 0.5rem;
     font-weight: bold;
     background-color: #000080;
+    gap: 0.5rem;
 }
 
 footer p, i {
     color: white;
+}
+
+.buscador {
+    text-align: center;
+}
+
+.buscador input {
+    width: 80%;
 }
 
 @media (min-width: 730px) and (max-width: 991px) {
